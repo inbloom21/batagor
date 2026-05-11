@@ -137,39 +137,3 @@ input, select {
     grid-template-columns: 1fr;
   }
 }
-
-.nav-links {
-  display: flex;
-  gap: 0.75rem;
-  align-items: center;
-}
-
-.nav-link {
-  text-decoration: none;
-  color: var(--dark);
-  font-weight: 600;
-  padding: 0.5rem 0.8rem;
-  border-radius: 0.5rem;
-}
-
-.nav-link:hover {
-  background: #fed7aa;
-}
-
-.nav-link-active {
-  background: var(--primary);
-  color: var(--white);
-}
-
-.hero-small {
-  padding-bottom: 1.5rem;
-}
-
-.single-column {
-  grid-template-columns: 1fr;
-}
-
-.history {
-  display: grid;
-  gap: 1rem;
-}
