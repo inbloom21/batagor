@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Batagor Mang Ujang | Lezat & Gurih</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav container">
+      <h1 class="logo">Batagor Mang Ujang</h1>
+      <div class="nav-links">
+        <a href="index.html" class="nav-link nav-link-active">Home</a>
+        <a href="about.html" class="nav-link">About Us</a>
+      </div>
+    </nav>
+
+    <section class="hero-content container">
+      <div>
+        <p class="badge">⭐ Resep khas Bandung sejak 2008</p>
+        <h2>Batagor Renyah, Saus Kacang Melimpah!</h2>
+        <p class="subtitle">
+          Nikmati batagor hangat dengan tahu pilihan, ikan tenggiri segar,
+          dan bumbu kacang premium. Cocok untuk keluarga, kantor, dan acara spesial.
+        </p>
+        <div class="hero-actions">
+          <a class="btn" href="#menu">Lihat Menu</a>
+          <a class="btn btn-light" href="#kontak">Hubungi Kami</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <h3>Promo Hari Ini</h3>
+        <p><strong>Beli 3 Porsi</strong> Gratis 1 Es Teh Manis</p>
+        <small>Berlaku hingga pukul 21.00 WIB</small>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section id="menu" class="section container">
+      <h2>Menu Favorit</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Batagor Original</h3>
+          <p>5 pcs batagor + saus kacang + jeruk limau.</p>
+          <p class="price">Rp 20.000</p>
+        </article>
+        <article class="card">
+          <h3>Batagor Komplit</h3>
+          <p>Batagor + siomay + kentang + telur.</p>
+          <p class="price">Rp 28.000</p>
+        </article>
+        <article class="card">
+          <h3>Paket Keluarga</h3>
+          <p>15 pcs batagor + 3 minuman + sambal.</p>
+          <p class="price">Rp 75.000</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container benefit-wrap">
+        <div>
+          <h2>Kenapa Pilih Kami?</h2>
+          <ul>
+            <li>✅ Bahan segar setiap hari</li>
+            <li>✅ Digoreng saat dipesan</li>
+            <li>✅ Tersedia level pedas sesuai selera</li>
+            <li>✅ Bisa pesan via GoFood / GrabFood</li>
+          </ul>
+        </div>
+        <div class="rating-card">
+          <p class="rating">4.9/5</p>
+          <p>Dari 1.200+ ulasan pelanggan</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="pesan" class="section container">
+      <h2>Form Pemesanan Cepat</h2>
+      <form id="orderForm" class="order-form">
+        <label>
+          Nama
+          <input type="text" id="nama" required placeholder="Masukkan nama Anda" />
+        </label>
+        <label>
+          Nomor WhatsApp
+          <input type="tel" id="wa" required placeholder="08xxxxxxxxxx" />
+        </label>
+        <label>
+          Pilih Menu
+          <select id="menuPilihan" required>
+            <option value="">-- Pilih menu --</option>
+            <option>Batagor Original - Rp 20.000</option>
+            <option>Batagor Komplit - Rp 28.000</option>
+            <option>Paket Keluarga - Rp 75.000</option>
+          </select>
+        </label>
+        <label>
+          Jumlah
+          <input type="number" id="jumlah" min="1" value="1" required />
+        </label>
+        <button type="submit" class="btn">Kirim Pesanan</button>
+      </form>
+      <p id="result" class="result" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <footer id="kontak" class="footer">
+    <div class="container">
+      <p><strong>Batagor Mang Ujang</strong> • Jl. Batagor No. 12, Bandung</p>
+      <p>WhatsApp: 0812-3456-7890 • Buka setiap hari 10.00 - 22.00 WIB</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
